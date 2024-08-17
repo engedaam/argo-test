@@ -59,12 +59,12 @@ metadata:
   name: default
 spec:
   amiFamily: AL2
-  role: karpenter-shared-role
+  role:  aengeda-karpenter-fargate-karpenter
   tags:
     testing: interruptMe
   securityGroupSelectorTerms:
   - tags:
-      karpenter.sh/discovery: ${CLUSTER_NAME}
+      karpenter.sh/discovery:  aengeda-karpenter-fargate
   subnetSelectorTerms:
   - tags:
-      karpenter.sh/discovery: ${CLUSTER_NAME}
+      karpenter.sh/discovery:  aengeda-karpenter-fargate
