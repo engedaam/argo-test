@@ -59,7 +59,7 @@ metadata:
   name: default
 spec:
   amiFamily: AL2
-  role:  aengeda-karpenter-fargate-karpenter
+  role:  KarpenterNodeRole-aengeda-karpenter-fargate
   tags:
     testing: interruptMe
   securityGroupSelectorTerms:
